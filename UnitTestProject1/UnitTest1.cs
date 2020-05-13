@@ -13,10 +13,10 @@ namespace UnitTestProject1
             //Ex4
             //Arrange
             Phone phone = new Phone();
-            double expectedPrice = 500;
+            double expectedPrice = 550;
 
             //Act
-            phone.IncreasePrice(500, 10);
+            phone.IncreasePrice(500, .1);
 
             //Assert
             Assert.AreEqual(expectedPrice, phone.Price);
